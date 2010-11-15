@@ -13,6 +13,12 @@ class UserController extends Zend_Controller_Action
      */
     public function indexAction ()
     {
-		echo "Soy User Controller";    	
+		echo "Soy User Index Action";    	
     }
+    
+	public function AddAction ()
+    {
+		echo "Soy User Add Action";    	
+    }
+    
 }
