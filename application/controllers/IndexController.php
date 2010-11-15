@@ -10,7 +10,12 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+    	$_controller = $this->getRequest()->getControllerName();
+		$_action = $this->getRequest()->getActionName();
+		    	
+    	if($_controller == 'index'){
+    		echo "This controller is index";
+    	}
     }
 
 
