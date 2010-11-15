@@ -21,4 +21,8 @@ class UserController extends Zend_Controller_Action
 		echo "Soy User Add Action";    	
     }
     
+    public function EditAction () {
+    	echo "Soy User Edit Action";
+    }
+    
 }

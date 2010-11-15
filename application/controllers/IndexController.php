@@ -17,6 +17,10 @@ class IndexController extends Zend_Controller_Action
     		echo "This controller is index";
     	}
     }
+    
+    public function _indexAction($param) {
+    	
+    }
 
 
 }
